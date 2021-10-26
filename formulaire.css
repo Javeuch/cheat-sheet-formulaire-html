@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: 'desyrel-webfont';
-  src: url('/section2/fonts/desyrel-webfont/desyrel-webfont.eot');
-  src: url('/section2/fonts/desyrel-webfont/desyrel-webfont.eot?iefix')
+  src: url('polices/desyrel-webfont/desyrel-webfont.eot');
+  src: url('polices/desyrel-webfont/desyrel-webfont.eot?iefix')
       format('eot'),
-    url('/section2/fonts/desyrel-webfont/desyrel-webfont.woff') format('woff'),
-    url('/section2/fonts/desyrel-webfont/desyrel-webfont.ttf')
+    url('polices/fonts/desyrel-webfont/desyrel-webfont.woff') format('woff'),
+    url('polices/desyrel-webfont/desyrel-webfont.ttf')
       format('truetype'),
-    url('/section2/fonts/desyrel-webfont/desyrel-webfont.svg#webfont')
+    url('polices/desyrel-webfont/desyrel-webfont.svg#webfont')
       format('svg');
 }
 .maPolice {
