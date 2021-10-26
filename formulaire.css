@@ -1,0 +1,78 @@
+/* Mise en forme: "CREATION D'UN FORMULAIRE"*/
+
+@font-face {
+  font-family: 'desyrel-webfont';
+  src: url('/section2/fonts/desyrel-webfont/desyrel-webfont.eot');
+  src: url('/section2/fonts/desyrel-webfont/desyrel-webfont.eot?iefix')
+      format('eot'),
+    url('/section2/fonts/desyrel-webfont/desyrel-webfont.woff') format('woff'),
+    url('/section2/fonts/desyrel-webfont/desyrel-webfont.ttf')
+      format('truetype'),
+    url('/section2/fonts/desyrel-webfont/desyrel-webfont.svg#webfont')
+      format('svg');
+}
+.maPolice {
+  font-family: 'desyrel-webfont';
+}
+
+.container {
+  background: url('images/ciel.png') fixed;
+  border: 2px solid black;
+  padding: 10px;
+}
+header {
+  text-transform: uppercase; /*Mettre en Maj.*/
+  color: red;
+  background-color: yellow;
+  text-shadow: 4px 4px 4px black;
+  font-size: x-large;
+  border: 1px solid red;
+
+  padding: 5px;
+  text-align: center;
+  box-shadow: 4px 4px 6px black;
+}
+
+h2 {
+  color: red;
+  font-family: 'desyrel-webfont';
+}
+h4 {
+  color: blue;
+}
+
+footer {
+  font-size: 0.6em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: right;
+  margin-top: 20px;
+}
+span {
+  font-style: italic;
+}
+
+img {
+  position: relative;
+  float: right;
+}
+
+label:hover {
+  color: deeppink;
+}
+
+.waouh {
+  /*alignement des champs pseudo et mdp*/
+  display: block;
+  width: 130px;
+  float: left;
+}
+fieldset legend p {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+#sansPoints {
+  list-style-type: none;
+}
