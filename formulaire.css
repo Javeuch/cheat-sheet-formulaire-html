@@ -30,7 +30,7 @@ header {
 
   padding: 5px;
   text-align: center;
-  box-shadow: 4px 4px 6px black;
+  box-shadow: 4px 4px 6px blue;
 }
 
 h2 {
@@ -67,6 +67,7 @@ label:hover {
   width: 130px;
   float: left;
 }
+
 fieldset legend p {
   display: flex;
   flex-direction: column;
@@ -75,4 +76,16 @@ fieldset legend p {
 
 #sansPoints {
   list-style-type: none;
+}
+
+.monFlex{
+display: flex;
+justify-content: space-between;
+}
+.monFlex input {
+background-color:yellow;
+width:100px;
+height: 70px;
+border-radius: 10%;
+box-shadow: 4px 4px 4px blue;
 }
